@@ -1,0 +1,50 @@
+{
+  "name": "Example University",
+  "head": {
+    "firstName": "Marko",
+    "lastName": "Ray",
+    "patronymic": "Shon",
+    "gender": "MALE"
+  },
+  "faculties": [
+    {
+      "name": "Computer Science",
+      "headmaster": {
+        "firstName": "John",
+        "lastName": "Peters",
+        "patronymic": "Adam",
+        "gender": "MALE"
+      },
+      "departments": [
+        {
+          "name": "Programming",
+          "head": {
+            "firstName": "Jane",
+            "lastName": "Way",
+            "patronymic": "Martin",
+            "gender": "FEMALE"
+          },
+          "groups": [
+            {
+              "name": "Java Programming",
+              "students": [
+                {
+                  "firstName": "Alice",
+                  "lastName": "Smith",
+                  "patronymic": "Bob",
+                  "gender": "FEMALE"
+                },
+                {
+                  "firstName": "Bob",
+                  "lastName": "Johnson",
+                  "patronymic": "Charlie",
+                  "gender": "MALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
